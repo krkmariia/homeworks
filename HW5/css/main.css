@@ -1,0 +1,441 @@
+.main{
+    display: flex;
+    }
+    
+    .services{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: auto;
+    width: 1163px;
+    }
+    
+    .services_title{
+    font-size: 24px;
+    font-weight: 400;
+    color: #333333;
+    margin-bottom: 22px;
+    font-family: 'Kaushan Script', cursive;
+    }
+    
+    .services_main_title{
+    color: #333333;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 64px;
+    }
+    
+    .services_main_title::after{
+        content: "";
+        width: 61px;
+        height: 4px;
+        background-color: #f38181;
+        display: block;
+        margin: auto;
+        margin-top: 41px;
+    }
+    
+    .card_conteiner{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .card_img{
+    min-width: 32px;
+    height: 32px;
+    }
+    
+    .card_text_wrapper{
+    width: 270px;
+    }
+
+.card_title1{
+    color: #333333;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    width: 100%;
+}
+
+.card_text1{
+    color: #999999;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    margin-left: 63px;
+}
+
+.card_title1::before{
+    content: '';
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url(../img/ALARM1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: top;
+    margin-right: 33px;
+}
+
+.services_card1{
+    width: 330px;
+    margin-bottom: 100px;
+}
+
+
+.card_title2{
+    color: #333333;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    width: 100%;
+}
+
+.card_text2{
+    color: #999999;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    margin-left: 63px;
+}
+
+.card_title2::before{
+    content: '';
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url(../img/line_graph2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: top;
+    margin-right: 33px;
+}
+
+.services_card2{
+    width: 330px;
+    margin-bottom: 100px;
+}
+
+
+.card_title3{
+    color: #333333;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    width: 100%;
+}
+
+.card_text3{
+    color: #999999;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    margin-left: 63px;
+}
+
+.card_title3::before{
+    content: '';
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url(../img/computer3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: top;
+    margin-right: 33px;
+}
+
+.services_card3{
+    width: 330px;
+    margin-bottom: 100px;
+}
+
+
+.card_title4{
+    color: #333333;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    width: 100%;
+}
+
+.card_text4{
+    color: #999999;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    margin-left: 63px;
+}
+
+.card_title4::before{
+    content: '';
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url(../img/book4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: top;
+    margin-right: 33px;
+}
+
+.services_card4{
+    width: 330px;
+    margin-bottom: 100px;
+}
+
+.card_title5{
+    color: #333333;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    width: 100%;
+}
+
+.card_text5{
+    color: #999999;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    margin-left: 63px;
+}
+
+.card_title5::before{
+    content: '';
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url(../img/HOME5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: top;
+    margin-right: 33px;
+}
+
+.services_card5{
+    width: 330px;
+    margin-bottom: 100px;
+}
+
+.card_title6{
+    color: #333333;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    width: 100%;
+}
+
+.card_text6{
+    color: #999999;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    margin-left: 63px;
+}
+
+.card_title6::before{
+    content: '';
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url(../img/IMAGE6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: top;
+    margin-right: 33px;
+}
+
+.services_card6{
+    width: 330px;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .our_team{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    width: 1163px;
+    height: 966px;
+    margin: auto;
+
+    }
+    
+    .team_title{
+        font-size: 24px;
+        font-weight: 400;
+        color: #333333;
+        margin-bottom: 22px;
+        font-family: 'Kaushan Script', cursive;
+    }
+    
+    .team_main_title{
+        color: #333333;
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 48px;
+    }
+
+    .text{
+        font-family: 'Roboto', sans-serif;
+        color: #999999;
+        font-size: 15px;
+        text-align: center;
+        font-weight: 400;
+        margin-bottom: 90px;
+    }
+    
+    .team_main_title::after{
+        content: "";
+        width: 61px;
+        height: 4px;
+        background-color: #f38181;
+        display: block;
+        margin: auto;
+        margin-top: 41px;
+    }
+    
+    .team{
+        display: flex;
+        justify-content: space-between;
+        }
+    
+    .hidden_box{
+        width: 380px;
+        text-align: center;
+        height: 470px;
+        position: relative;
+    }
+    
+    .team_photo{
+    width: 380px;
+    height: auto;
+    margin-bottom: 30px;
+    }
+ 
+    .social_hidden{
+    width: 380px;
+    height: 470px;
+    font-size: 0;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(243, 129, 129, 0.8), rgba(252, 227, 138, 0.8));
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.3s linear;
+    }
+
+    .hidden_box:hover> .social_hidden{
+     opacity: 1;
+     transition: 0.3s linear;
+     transform: translate(-10px, -10px);
+    }
+
+    .hidden_box:hover> .team_photo{
+        box-shadow: 10px 10px 0px 0px rgba(149, 225, 211, 1) ;
+        transform: translate(-10px, -10px);
+        transition: 0.3s linear;
+
+    }
+/* 
+.hidden_box:hover{
+    transform: translate(-10px, -10px);
+    transition: 0.3s linear;
+} */
+
+    .social_link{
+width: 56px;
+height: 56px;
+display: inline-block;
+margin-right: 1px; 
+background-color: #fce38f;
+position: relative;
+}
+
+.social_link:hover{
+    background-color: #95e1d3;
+}
+
+.social_link:last-child{
+    margin-right: 0;
+}
+
+.social_icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+    .card2_title{
+        font-size: 14px;
+        font-weight: 400;
+        color: #333333;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+    }
+    
+    .card2_title2{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        font-size: 15px;
+        font-style: italic;
+        color: #b9b9b9;
+        text-align:center;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
