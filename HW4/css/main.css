@@ -1,7 +1,4 @@
-.main{
-    display: flex;
-    }
-    
+  
     .services{
     font-family: 'Montserrat', sans-serif;
     text-align: center;
@@ -63,6 +60,8 @@
     font-weight: 400;
     font-family: 'Montserrat', sans-serif;
     text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 20px;
     }
     
     .card_text{
@@ -74,11 +73,10 @@
     }
     
     .our_team{
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    width: 1163px;
-    height: 966px;
-        
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        margin: auto;
+        width: 1163px;
     }
     
     .team_title{
