@@ -1,0 +1,38 @@
+.header{
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 940px;
+  text-align: center;
+  margin:auto;
+  margin-top: 48px;
+  margin-bottom: 125px;
+}
+
+.logo{
+  font-family: "Kaushan Script", cursive;
+  font-size: 26px;
+  color:#fed136;
+}
+
+.list{
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  color: #222222;
+  text-transform: uppercase;
+}
+
+.link{
+  text-transform: uppercase;
+  list-style: none;
+  font-size: 14px;
+  font-weight: 700;
+  padding-bottom: 130px;
+}
+
+.link:hover{
+  color: #fed136;
+}
+
