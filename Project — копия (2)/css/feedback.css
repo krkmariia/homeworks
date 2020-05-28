@@ -154,6 +154,17 @@ h2 {
   white-space: nowrap; */
 }
 
+.feedback__description--everything{
+  text-align: center;
+  position: absolute;
+  top: 180px;
+  width: 85vw;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #363436;
+}
+
 .feedback__slider--inner::before {
   content: "";
   position: absolute;
@@ -231,7 +242,7 @@ label:hover {
   background-color: #330cf4;
 }
 
-.feedback__description--rest {
+.feedback__description--everything{
   display: none;
 }
 
@@ -266,12 +277,17 @@ label:hover {
     margin-top: 16px;
   }
 
-  .feedback__description--rest {
+.feedback__description{
+display: none;
+}
+
+  .feedback__description--everything {
     display: block;
+    
   }
 
   .feedback__slider--inner::before {
-    top: 307px;
+    top: 288px;
     left: 5px;
   }
 
@@ -292,27 +308,27 @@ label:hover {
 }
 
 @media screen and (min-width: 1024px) {
-  .feedback__description {
+  .feedback__description--everything {
     width: 60vw;
   }
 
   .feedback__slider--inner::before {
-    top: 307px;
+    top: 290px;
     left: 160px;
   }
 
-  .description {
+  .feedback__description {
     font-size: 16px;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .feedback__description {
+  .feedback__description--everything {
     font-size: 21px;
   }
 
   .feedback__slider--inner::before {
-    top: 307px;
+    top: 287px;
     left: 232px;
   }
 }
