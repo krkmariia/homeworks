@@ -1,0 +1,136 @@
+.holiday_dreams__header--wrapper {
+    background-image: url(../img/backgroundphoto.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding:1rem 1rem 0 1rem;
+}
+
+.holiday_dreams__main_title--logo {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.holiday_dreams__main_title--logo_link{
+    color: ghostwhite;
+    cursor: pointer;
+}
+
+.holiday_dreams__login--wrapper {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 115px;
+}
+
+.holiday_dreams__login {
+    color: ghostwhite;
+    border: 2px solid transparent;
+    border-radius: 25px 25px;
+    cursor: pointer;
+    padding: 11px 19px;
+}
+
+.holiday_dreams__login:hover {
+    border: 2px solid ghostwhite;
+}
+
+.holiday_dreams {
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 0 1rem;
+    margin: 0 auto;
+}
+
+.holiday_dreams--title {
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: ghostwhite;
+    margin-bottom: 20px;
+}
+
+.holiday_dreams__subtitle {
+    font-weight: 300;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: ghostwhite;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.find_your_partner__btn{
+    font-weight: 700;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: ghostwhite;
+    cursor: pointer;
+    background-color: #ff4e50;
+    border: none;
+    border-radius: 25px 25px;
+    margin-bottom: 140px;
+    padding: 13px 50px;
+}
+
+@media screen and (min-width: 768px) {
+    .header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding:2rem 2rem 150px;
+    }
+
+    .holiday_dreams__main_title--logo {
+        margin-bottom: 0;
+    }
+
+    .holiday_dreams__login--wrapper {
+        width: 190px;
+        margin-bottom: 0;
+    }
+
+    .holiday_dreams {
+        max-width: 678px;
+        padding: 0 2rem;
+    }
+
+    .holiday_dreams--title {
+        font-size: 52px;
+        margin-bottom: 42px;
+    }
+
+    .holiday_dreams__subtitle {
+        font-size: 25px;
+        margin-bottom: 36px;
+    }
+
+    .find_your_partner__btn {
+        margin-bottom: 236px;
+        padding: 13px 23px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .header {
+        max-width: 1020px;
+        margin: auto;
+    }
+
+    .holiday_dreams {
+        margin: 0 auto;
+    }
+}

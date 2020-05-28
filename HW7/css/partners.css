@@ -1,0 +1,136 @@
+.meet_a_partner {
+    text-align: center;
+    padding: 68px 1rem 0 1rem;
+}
+
+.meet_a_partner__main--title{
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+.meet_a_partner__card {
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+    margin-bottom: 28px;
+}
+
+.meet_a_partner__img--wrapper {
+    width: 122px;
+    height: 122px;
+    position: relative;
+    margin: 0 auto 20px auto;
+}
+
+.meet_a_partner_image{
+    border-radius: 50%;
+}
+
+.meet_a_partner--icon__wrapper {
+    display: flex;
+    width: 33px;
+    height: 33px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border: 3px solid ghostwhite;
+    border-radius: 50%;
+    right: 0;
+    bottom: 0;
+}
+
+.partners__red--wrapper{
+    background-color: #ff4e50;
+}
+
+.partners__yellow--wrapper {
+    background-color: #ffa507;
+}
+
+.partners__green--wrapper {
+    background-color: #1cd7ad;
+}
+
+.partners__blue--wrapper {
+    background-color: #4e73db;
+}
+
+.partners_name {
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+    margin-bottom: 16px;
+}
+
+.information__about--partner {
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    color: #666666;
+}
+
+.meet_a_partner__btn{
+    font-weight: 700;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    color: #ff4e50;
+    background-color: ghostwhite;
+    border: 2px solid #ff4e50;
+    border-radius: 25px 25px;
+    margin-bottom: 40px;
+    padding: 13px 70px;
+}
+
+@media screen and (min-width: 768px) {
+    .meet_a_partner {
+        padding: 70px 2rem 0;
+    }
+
+    .meet_a_partner__main--title{
+        margin-bottom: 32px;
+    }
+
+    .meet_a_partner__card--container {
+        display: flex;
+        width: 659px;
+        text-align: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+
+    .meet_a_partner__card {
+        width: 221px;
+        margin-bottom: 60px;
+    }
+
+    .card--number2{
+        order: 2;
+    }
+
+    .card--number3{
+        order: 1;
+    }
+
+    .card--number4 {
+        order: 3;
+    }
+
+    .meet_a_partner__btn {
+        padding: 14px 30px;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+    .meet_a_partner__card--container{
+        width: 912px;
+        margin: 0 auto;
+    }
+}
